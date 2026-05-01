@@ -1,0 +1,14 @@
+---
+description: Frontend React rules
+globs:
+  - "frontend/**/*.{ts,tsx}"
+---
+
+Frontend conventions:
+- Use React with TypeScript.
+- Prefer feature-based structure.
+- Keep API calls in src/api or feature-specific API files.
+- Keep components small and readable.
+- Use explicit types for API responses.
+- Avoid unnecessary global state.
+- Support loading, error, and empty states.

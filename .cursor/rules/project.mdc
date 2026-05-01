@@ -1,0 +1,16 @@
+---
+description: General project rules
+alwaysApply: true
+---
+
+You are helping build a full-stack app called TranslateSmart Dashboard.
+
+Core rules:
+- Do not make large changes without first explaining the plan.
+- Prefer small, incremental changes.
+- Do not rewrite unrelated files.
+- Do not introduce new libraries unless you explain why.
+- After implementation, summarize changed files and reasoning.
+- Always preserve existing behavior unless the task explicitly changes it.
+- If something is unclear, make a reasonable assumption and state it.
+- Never touch secrets, .env files, production credentials, deployment settings, or destructive commands unless explicitly asked.

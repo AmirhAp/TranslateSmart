@@ -1,0 +1,15 @@
+---
+description: Backend FastAPI rules
+globs:
+  - "backend/**/*.py"
+---
+
+Backend conventions:
+- Use FastAPI routers.
+- Use Pydantic schemas for request/response models.
+- Separate route, schema, service, and repository layers.
+- Keep business logic out of route handlers.
+- Use type hints everywhere.
+- Write pytest tests for new behavior.
+- Use clear HTTP status codes.
+- Do not access storage directly from route handlers.

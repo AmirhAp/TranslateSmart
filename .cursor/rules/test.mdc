@@ -1,0 +1,11 @@
+---
+description: Testing rules
+alwaysApply: true
+---
+
+Testing rules:
+- Add or update tests for meaningful behavior changes.
+- Backend tests use pytest.
+- Frontend tests should focus on user-visible behavior where applicable.
+- Do not weaken assertions just to make tests pass.
+- If tests fail, explain the failure before fixing.
